@@ -1,0 +1,12 @@
+{
+  "name": "nokia-extension",
+  "version": "1.0.0",
+  "description": "Nokia Extension Project",
+  "main": "index.js",
+  "author": "Jolanta Horudko, Wojciech Trojanowski",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

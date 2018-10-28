@@ -1,0 +1,17 @@
+{
+	"name": "First ext",
+	"version": "1.0",
+	"description": "Some description here",
+	"manifest_version": 2,
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"128": "images/logo_128.png"
+		}
+	},
+	"icons": {
+		"128": "images/logo_128.png"
+	},
+	"permissions": ["activeTab"],
+	"content_security_policy": "script-src 'self' https://unpkg.com; object-src 'self'"
+}
