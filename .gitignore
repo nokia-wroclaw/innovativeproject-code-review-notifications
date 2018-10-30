@@ -1,2 +1,5 @@
 node_modules/
-extension/srcipts/index.html
+extension/index.html
+extension/theme.css
+extension/images/
+extension/bundle.js

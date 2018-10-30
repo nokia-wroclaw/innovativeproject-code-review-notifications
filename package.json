@@ -2,11 +2,26 @@
   "name": "nokia-extension",
   "version": "1.0.0",
   "description": "Nokia Extension Project",
-  "main": "index.js",
+  "main": "extension/bundle.js",
+  "scripts": {
+    "build": "cp src/index.html extension/index.html && cp src/theme.css extension/theme.css && cp -r src/images extension/images && webpack",
+    "start": "webpack-dev-server --port 3000 --hot --host 0.0.0.0"
+  },
   "author": "Jolanta Horudko, Wojciech Trojanowski",
   "license": "MIT",
+  "private": false,
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
