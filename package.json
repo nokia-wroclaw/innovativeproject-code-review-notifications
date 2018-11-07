@@ -7,7 +7,7 @@
     "build": "cp src/index.html extension/index.html && cp src/theme.css extension/theme.css && cp -r src/images extension/images && webpack",
     "start": "webpack-dev-server --port 3000 --hot --host 0.0.0.0"
   },
-  "author": "Jolanta Horudko, Wojciech Trojanowski",
+  "author": "Jolanta Horudko, Wojtek Trojanowski",
   "license": "MIT",
   "private": false,
   "dependencies": {
