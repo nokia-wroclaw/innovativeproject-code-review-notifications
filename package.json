@@ -7,10 +7,12 @@
     "build": "cp src/index.html extension/index.html && cp src/theme.css extension/theme.css && cp -r src/images extension/images && webpack",
     "start": "webpack-dev-server --port 3000 --hot --host 0.0.0.0"
   },
-  "author": "Jolanta Horudko, Wojtek Trojanowski",
+  "author": "Jolanta Horudko, Wojciech Trojanowski",
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "axios": "^0.18.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0"
   },
